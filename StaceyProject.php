@@ -31,6 +31,7 @@
             color: #333;
             margin-bottom: 20px;
             text-align: center;
+            font-size: 35px;
         }
 
         form {
@@ -44,20 +45,33 @@
         }
 
         input[type="text"],
-        input[type="number"],
-        input[type="submit"] {
-            width: calc(100% - 20px);
+        input[type="number"] {
+            width: 400px;
             padding: 10px;
             margin-bottom: 10px;
             border: 1px solid #ccc;
-            border-radius: 5px;
+            border-radius: 10px;
             box-sizing: border-box;
+            display:block;
         }
 
         input[type="submit"] {
-            background-color: #f05544;
-            color: #fff;
+            background-color: orangered;
+            color: white;
             cursor: pointer;
+            margin-left: 150px;
+            padding-left: 15px;
+            padding-right:15px;
+            padding-top:15px;
+            padding-bottom:15px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 10px;
+            box-sizing: border-box;
+            display:block;
+            font-weight:bold;
+            font-size:15px;
+
         }
 
         input[type="submit"]:hover {
@@ -65,7 +79,7 @@
         }
 
         ul {
-            list-style-type: none;
+            list-style-type:lower-norwegian ;
             padding: 0;
             margin: 0;
         }
@@ -102,6 +116,8 @@
 <div class="container">
 
     <h2>Exercise Tracker</h2>
+
+    <hr>
 
     <?php
     // Function to save exercise data to a text file
