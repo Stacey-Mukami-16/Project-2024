@@ -16,6 +16,8 @@
             background-size: cover;
             background-position: center;
             color: #333;
+            background-image: url('https://www.wallpaperflare.com/workout-training-man-sport-wallpaper-osct');
+
         }
 
         .container {
@@ -53,10 +55,11 @@
             border-radius: 10px;
             box-sizing: border-box;
             display:block;
+
         }
 
         input[type="submit"] {
-            background-color: orangered;
+            background-color: darkred;
             color: white;
             cursor: pointer;
             margin-left: 150px;
@@ -75,7 +78,9 @@
         }
 
         input[type="submit"]:hover {
-            background-color: #e0443b;
+            background-color: lightblue;
+            color:black;
+            transition-duration: 1s;
         }
 
         ul {
@@ -103,12 +108,8 @@
                 padding: 10px;
             }
 
-            input[type="text"],
-            input[type="number"],
-            input[type="submit"] {
-                width: 100%;
-            }
-        }
+
+        
     </style>
 </head>
 <body>
